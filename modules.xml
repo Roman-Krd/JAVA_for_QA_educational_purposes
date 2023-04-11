@@ -4,7 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/addressbook-web-tests.main.iml" filepath="$PROJECT_DIR$/.idea/modules/addressbook-web-tests.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/addressbook-web-tests.test.iml" filepath="$PROJECT_DIR$/.idea/modules/addressbook-web-tests.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../adress-book-new-entry/src/main/java/java.iml" filepath="$PROJECT_DIR$/../../../adress-book-new-entry/src/main/java/java.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_pft.iml" filepath="$PROJECT_DIR$/java_pft.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../adress-book-new-entry/src/main/main.iml" filepath="$PROJECT_DIR$/../../../adress-book-new-entry/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../adress-book-new-entry/src/src.iml" filepath="$PROJECT_DIR$/../../../adress-book-new-entry/src/src.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../adress-book-new-entry/src/test/test.iml" filepath="$PROJECT_DIR$/../../../adress-book-new-entry/src/test/test.iml" />
     </modules>
   </component>
 </project>
