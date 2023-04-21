@@ -80,33 +80,25 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.stqa.pft.adressbookNewEntry.appmanager" />
+      <recent name="ru.stqa.pft.adressbookNewEntry" />
       <recent name="ru.stqa.pft.addressbook.appmanager" />
       <recent name="ru.stqa.pft.addressbook" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.AdressBookNewEntry">
-    <configuration name="CreateNewEntry" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/../../../adress-book-new-entry" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ru.stqa.pft.adressbookNewEntry.CreateNewEntry&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adressbookNewEntry.App" />
+      <module name="adress-book-new-entry.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.adressbookNewEntry.appmanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="UntitledTestCase" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -135,12 +127,12 @@
       <module name="adress-book-new-entry.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.adressbookNewEntry.AdressBookNewEntry" />
+          <option name="PATTERN" value="ru.stqa.pft.adressbookNewEntry.tests.AdressBookNewEntry" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.pft.adressbookNewEntry" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adressbookNewEntry.AdressBookNewEntry" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adressbookNewEntry.tests.AdressBookNewEntry" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -148,16 +140,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupDeletionTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="java_pft.addressbook-web-tests.test" />
+    <configuration name="LastEntryDeletionTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="adress-book-new-entry.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.addressbook.appmanager.*" />
+          <option name="PATTERN" value="ru.stqa.pft.adressbookNewEntry.appmanager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.GroupDeletionTests" />
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.adressbookNewEntry" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adressbookNewEntry.tests.LastEntryDeletionTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -165,16 +157,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="groupCreationTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="java_pft.addressbook-web-tests.test" />
+    <configuration name="newEntryData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="adress-book-new-entry.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.groupCreationTests" />
+          <option name="PATTERN" value="ru.stqa.pft.adressbookNewEntry.appmanager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.groupCreationTests" />
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.adressbookNewEntry" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adressbookNewEntry.newEntryData" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -185,10 +177,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.AdressBookNewEntry" />
+        <item itemvalue="TestNG.LastEntryDeletionTest" />
+        <item itemvalue="TestNG.newEntryData" />
+        <item itemvalue="Application.App" />
         <item itemvalue="Gradle.UntitledTestCase" />
-        <item itemvalue="TestNG.groupCreationTests" />
-        <item itemvalue="Gradle.CreateNewEntry" />
-        <item itemvalue="TestNG.GroupDeletionTests" />
       </list>
     </recent_temporary>
   </component>
