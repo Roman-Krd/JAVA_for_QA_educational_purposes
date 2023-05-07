@@ -90,7 +90,7 @@
       <recent name="ru.stqa.pft.addressbook" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.testGroupCreation">
+  <component name="RunManager" selected="TestNG.GroupModificationTests">
     <configuration name="AdressBookNewEntry" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="adress-book-new-entry.test" />
       <extension name="coverage">
@@ -101,6 +101,40 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.pft.adressbookNewEntry.tests" />
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adressbookNewEntry.tests.AdressBookNewEntry" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupCreationTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="java_pft.addressbook-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.GroupCreationTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupDeletionTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="java_pft.addressbook-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.GroupDeletionTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -125,23 +159,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LastEntryDeletionTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="adress-book-new-entry.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.adressbookNewEntry.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.adressbookNewEntry.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adressbookNewEntry.tests.LastEntryDeletionTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NewEntryModificationTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="adress-book-new-entry.test" />
       <extension name="coverage">
@@ -159,30 +176,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testGroupCreation" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="java_pft.addressbook-web-tests.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.testGroupCreation" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.testGroupCreation" />
+        <item itemvalue="TestNG.GroupModificationTests" />
+        <item itemvalue="TestNG.GroupDeletionTests" />
+        <item itemvalue="TestNG.GroupCreationTests" />
         <item itemvalue="TestNG.AdressBookNewEntry" />
         <item itemvalue="TestNG.NewEntryModificationTests" />
-        <item itemvalue="TestNG.GroupModificationTests" />
-        <item itemvalue="TestNG.LastEntryDeletionTest" />
       </list>
     </recent_temporary>
   </component>
